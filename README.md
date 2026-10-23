@@ -1,0 +1,174 @@
+﻿# 🚀 Awesome Cybersecurity Agentic Ai
+
+**Official Open-Source Release & Maintained Codebase** by [**@kush-coder**](https://github.com/kush-coder)
+
+[![Verified Build](https://img.shields.io/badge/Status-Verified--Passing-emerald?style=for-the-badge&logo=github)](https://github.com/kush-coder)
+[![License](https://img.shields.io/badge/License-MIT License-indigo?style=for-the-badge)](https://github.com/kush-coder)
+[![Language](https://img.shields.io/badge/Language-Shell-purple?style=for-the-badge)](https://github.com/kush-coder)
+
+## 💡 About This Project
+
+
+
+This repository is actively maintained and distributed by **@kush-coder** as an official open-source release.
+
+## ✨ Key Highlights
+- 🛡️ **Verified Health Checks**: Passed automated sandbox builds, dependency resolution, and health test runs.
+- 🚀 **Production Ready**: Lightweight footprint optimized for high efficiency.
+- 📦 **Permissive Open Source**: Available for developer integration, custom modifications, and community enhancements.
+
+## 🚀 Quick Start & Installation
+
+```bash
+# Clone your official repository
+git clone https://github.com/kush-coder/autopilot-awesome-cybersecurity-agentic-ai.git
+cd autopilot-awesome-cybersecurity-agentic-ai
+```
+
+---
+
+## 📖 Comprehensive Documentation
+
+<div align="center">
+	<img width="350" height="350" src="awesome-logo.png" alt="Awesome">
+</div>
+
+# Awesome Cybersecurity Agentic AI
+
+## Table of Contents
+- [MCP Servers](#mcp-servers)
+- [Research](#research)
+- [Tools](#tools)
+- [Frameworks](#frameworks)
+- [Datasets](#datasets)
+- [Communities](#communities)
+
+## MCP Servers
+- [addcontent/nuclei-mcp](https://github.com/addcontent/nuclei-mcp) -  MCP server implementation for Nuclei, a fast and customizable vulnerability scanner.
+- [alexgoller/illumio-mcp-server](https://github.com/alexgoller/illumio-mcp-server) - MCP server for Illumio PCE, enabling AI-driven workload management, label operations, and traffic flow analysis for security.
+- [aristiun/aribot-mcp](https://github.com/aristiun/aribot-mcp) - Remote MCP server for security work: STRIDE/LINDDUN threat modeling mapped to NIST/ISO 27001/SOC 2 with traceability from each threat to its control and fix, plus code, CI/CD, cloud, shadow-AI and API scanning, and remediation applied on approval. Streamable HTTP, OAuth 2.1.
+- [atomicchonk/roadrecon_mcp_server](https://github.com/atomicchonk/roadrecon_mcp_server) - MCP server for Azure AD data analysis with ROADRecon, mapping Azure Active Directory environments.
+- [Bamimore-Tomi/ghidra_mcp](https://github.com/Bamimore-Tomi/ghidra_mcp) - MCP server for Ghidra, providing reverse engineering and binary analysis capabilities to LLMs and agentic workflows.
+- [bromoket/x64dbg_mcp](https://github.com/bromoket/x64dbg_mcp) - MCP server for x64dbg debugger, providing 152 tools for AI-driven Windows debugging, reverse engineering, memory analysis, tracing, and anti-debug bypass.
+- [BurtTheCoder/mcp-dnstwist](https://github.com/BurtTheCoder/mcp-dnstwist) - MCP server for DNS fuzzing with dnstwist, detecting phishing and domain takeover threats.
+- [BurtTheCoder/mcp-maigret](https://github.com/BurtTheCoder/mcp-maigret) - MCP server for OSINT data collection with Maigret, gathering user info from various sources.
+- [BurtTheCoder/mcp-shodan](https://github.com/BurtTheCoder/mcp-shodan) - MCP server for querying Shodan, providing data on Internet-connected devices for security analysis.
+- [BurtTheCoder/mcp-virustotal](https://github.com/BurtTheCoder/mcp-virustotal) - MCP server for querying the VirusTotal API for file and URL malware analysis.
+- [ExposureGuard/exposureguard-mcp](https://github.com/ExposureGuard/exposureguard-mcp) - Domain security scanning for AI agents. 8-check audit (SPF, DMARC, SSL, headers, DNSSEC, ports), A-F grades, fix snippets. [getexposureguard.com](https://getexposureguard.com)
+- [ExposureGuard/haldir](https://github.com/ExposureGuard/haldir) - Guardian layer for AI agents: scoped sessions (Gate), encrypted secrets (Vault), audit trail (Watch), proxy mode for policy enforcement. Identity, spend limits, human-in-the-loop approvals. [haldir.xyz](https://haldir.xyz)
+- [hexablob/ismalicious-mcp-server](https://github.com/hexablob/ismalicious-mcp-server) - MCP server for isMalicious threat intelligence: IP, domain, URL and file hash reputation, CVE lookups with CVSS, EPSS and CISA KEV status, and prompt-injection scans of untrusted text before an agent acts on it.
+- [LING71671/open-reverselab](https://github.com/LING71671/open-reverselab) - Open-source MCP server exposing 100+ reverse-engineering tools (Ghidra headless, Frida, x64dbg, Rizin, YARA, triage) to AI agents, backed by a runnable CTF/APK/PE attack knowledge base.
+- [MCPPhalanx/binaryninja-mcp](https://github.com/MCPPhalanx/binaryninja-mcp) - MCP server for Binary Ninja, enabling binary analysis and reverse engineering in agentic workflows.
+- [mobilehackinglab/jadx-mcp-plugin](https://github.com/mobilehackinglab/jadx-mcp-plugin) - Jadx plugin for MCP server access, used for decompiling Android apps.
+- [MorDavid/BloodHound-MCP-AI](https://github.com/MorDavid/BloodHound-MCP-AI) - MCP server for BloodHound, providing Active Directory analysis and attack path discovery for agentic AI.
+- [morluto/rea](https://github.com/morluto/rea) - Local MCP server and CLI for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies, with evidence provenance and explicit analysis limitations.
+- [operantlabs/operant-mcp](https://github.com/operantlabs/operant-mcp) - Open-source MCP server with 51 security testing tools for pentesting, vulnerability scanning, and security auditing. Covers SQLi, XSS, SSRF, IDOR, auth bypass, CORS, path traversal, command injection, NoSQL injection, PCAP analysis, and cloud security.
+- [Paraphern/rugsnare](https://github.com/Paraphern/rugsnare) - Pin and diff MCP tool contracts (name, description, inputSchema) by canonicalized sha-256, catching silent schema and instruction drift after approval; fails the build on breaking, loosened, expanded or cosmetic changes, with a public drift corpus of per-version receipts across 24 popular servers.
+- [PortSwigger/mcp-server](https://github.com/PortSwigger/mcp-server) - MCP integration for Burp Suite, enabling web security testing and automation via agentic AI workflows.
+- [san-techie21/astracipher](https://github.com/san-techie21/astracipher) - Cryptographic identity MCP server for AI agents using W3C DIDs, Verifiable Credentials, and NIST post-quantum cryptography (ML-DSA-65 FIPS 204). Provides capability-bounded tool authorization, trust chain verification, and hybrid PQC signatures.
+- [scanmalware/mcp-server](https://github.com/scanmalware/mcp-server) - MCP server for the ScanMalware URL scanner. An agent submits a link for analysis in isolated environments (YARA, antivirus and IDS rules, threat feeds, AI scam-type classification of suspicious pages), then pivots across the public scan archive by domain, IP, ASN, JARM, favicon mmh3, fuzzy hash, screenshot hash, OCR text or JavaScript fingerprint. Remote streamable HTTP at mcp.scanmalware.com, no API key.
+- [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+- [voidly-ai/mcp-server](https://www.npmjs.com/package/@voidly/mcp-server) - Global internet censorship intelligence MCP server with 116 tools across 119+ countries. OONI / IODA / CensoredPlanet evidence, 5,356 citable incidents, ISP-level risk scoring, ML-driven shutdown forecasting (Sentinel), and domain accessibility checks for nation-state network interference. Free read endpoints, no API key.
+
+## Research
+- [agentic-anti-patterns](https://github.com/jimliu741523/agentic-anti-patterns) - Curated catalog of 20 documented LLM-agent failure modes (prompt injection via tool output, MCP server trust boundary collapse, RAG retrieval poisoning, exfiltration via agent-initiated fetch, autonomy creep, multi-agent vertical-domain failure, and more) with symptoms, root causes, mitigations, and detection methods per entry.
+- [AI CTF: Autonomous Agents in Cybersecurity Competitions](https://arxiv.org/abs/2311.09999) - Research on the use of agentic AI in CTF competitions and cybersecurity challenges.
+- [AutoCTF: Automated Capture The Flag Framework](https://arxiv.org/abs/2306.00988) - Research on an automated CTF framework using agentic AI for autonomous penetration testing and vulnerability discovery.
+- [BreachSeek](https://arxiv.org/html/2409.03789v1) - A Multi-Agent Automated Penetration Tester
+- [CAI: An Open, Bug Bounty-Ready Cybersecurity AI](https://arxiv.org/abs/2504.06017) - Comprehensive research on an open-source agentic AI system for cybersecurity and in particular for bug bounty, featuring hierarchical agent patterns, multi-agent collaboration, and autonomous penetration testing capabilities.
+- [CyberBattleSim (Microsoft)](https://github.com/microsoft/CyberBattleSim) - Research platform for simulating cybersecurity environments and evaluating autonomous agents in attack/defense scenarios.
+- [D-CIPHER](https://arxiv.org/html/2502.10931v2) - A multi-agent framework for collaborative CTF solving.
+- [Dynamic-Risk-Assessment](https://arxiv.org/abs/2505.18384) - Dynamic risk assessment specifically for offensive cybersecurity agents, offering insights into evaluating the risks and potential impact of autonomous attack tools.
+- [LLM Agents for Automated Penetration Testing](https://arxiv.org/abs/2402.02444) - Paper on leveraging LLM-based agents for autonomous penetration testing and red teaming.
+- [Multi-Agent Systems for Cybersecurity](https://arxiv.org/abs/2107.07229) - Survey and research on the application of multi-agent systems in cybersecurity, including threat detection and response.
+
+## Tools
+- [agent-policy-gateway](https://github.com/howardhsieh/agent-policy-gateway) - Python reference monitor for AI agent tool calls: YAML policies, dual-label and per-value taint tracking, call-history rules and a hash-chained audit log, with adapters for MCP, OpenAI, Anthropic and LangChain.
+- [agent-security-skills](https://github.com/howardhsieh/agent-security-skills) - Security skills and guardrails for AI coding agents: A-F checkup of Claude Code, Codex and Cursor setups, pre-install audit of skills and plugins, runtime guard hooks, trace detection and incident response.
+- [AgentFence](https://github.com/agentfence/agentfence) - Open-source platform for automatically testing AI agent security, detecting vulnerabilities like prompt injection, secret leakage, and system instruction exposure.
+- [Agentic Radar](https://github.com/splx-ai/agentic-radar) - Open-source CLI security scanner for agentic workflows.
+- [agenticsorg/agentic-security](https://github.com/agenticsorg/agentic-security) - An AI-powered security analysis tool intended to automatically detect vulnerabilities within code repositories.
+- [AgentShield Benchmark](https://github.com/doronp/agentshield-benchmark) - Open benchmark that scores AI agent security products head to head on 537 test cases across seven categories (prompt injection, jailbreak, data exfiltration, tool abuse, over-refusal, multi-agent, provenance) plus latency overhead, mapped to the OWASP Top 10 for Agentic Applications. Maintained by the Agent Guard team, whose own product currently ranks first on it.
+- [Aguara](https://github.com/garagon/aguara) - Static security scanner for AI agent skills and MCP servers. 173 detection rules, 4 analysis layers (pattern matching, NLP, taint tracking, rug-pull detection), offline, deterministic.
+- [AI Agent Launch Tools](https://github.com/kayalopez/ai-agent-launch-tools) - CLI and no-login checklists for scanning public AI-agent/MCP launch pages, approval gates, prompt-injection fixtures, and safe intake paths.
+- [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) - Open-source AI red-teaming platform from Tencent Zhuque Lab. Agent skill and MCP server risk scanning (14 categories), AI infra vulnerability scanning (146 components, 2000+ CVE rules), agent workflow scanning, and LLM jailbreak evaluation. Apache-2.0, web UI + CLI + REST API.
+- [AICA Agent](https://github.com/aica-iwg/aica-agent) - Autonomous intelligent cyberdefense agent for research and production, supporting advanced detection, response, and management capabilities.
+- [Armorer Guard](https://github.com/ArmorerLabs/Armorer-Guard) - Local Rust security scanner and MCP proxy for AI agents that detects prompt injection, credential leakage, exfiltration, and risky tool-call arguments before execution.
+- [ATR (Agent Threat Rules)](https://github.com/Agent-Threat-Rule/agent-threat-rules) - Open-source detection rules for AI agent threats. 419 regex rules, 10 OWASP-mapped categories, sub-millisecond latency. Adopted in production by Cisco AI Defense and Microsoft agent-governance-toolkit. MIT licensed.
+- [Barrion](https://barrion.io/ai-pentesting) - Commercial AI pentesting for web apps and APIs. Agents test the running app like an attacker would, on demand or on a schedule, and findings are checked against the live app.
+- [brood-box](https://github.com/stacklok/brood-box) - CLI tool for running AI coding agents (Claude Code, Codex, OpenCode) inside hardware-isolated microVMs with snapshot isolation, egress control, and MCP authorization profiles.
+- [BugTraceAI](https://github.com/BugTraceAI/BugTraceAI) - Open-source multi-agent platform for authorized web application security testing with validation, evidence capture, and reporting.
+- [`CAI` (Cybersecurity AI)](https://github.com/aliasrobotics/CAI) - Open-source Bug Bounty-ready AI system with hierarchical agentic patterns, supporting autonomous penetration testing, vulnerability discovery, and multi-agent cybersecurity workflows.
+- [ClawSearch](https://clawsearch.com/) - Search engine for AI agent skills with security-first indexing, surfacing audit results, risk scores, and safe alternatives for MCP servers and agent tools.
+- [ClawSec](https://clawsec.com/) - Security audit platform for AI agent skills with 5-tier analysis including static, dynamic, behavioral, Firecracker sandbox execution, and LLM-assisted review.
+- [Dark-Moon](https://github.com/ASCIT31/Dark-Moon) - Autonomous AI penetration testing platform where Markdown methodology playbooks orchestrate 80+ offensive tools via MCP across web, cloud, Active Directory, Kubernetes and API targets, keeping an evidence trail for every finding.
+- [Dr.Binary](https://github.com/DeepBitsTechnology/claude-plugins) - The Plugin equips Claude Code with advanced binary analysis capabilities for tasks such as incident response, malware investigation, and vulnerability assessment. It connects to both cloud-based analysis platforms and local tools via MCP, enabling seamless hybrid workflows. With features including local Windows system scanning, browser hijacking detection, registry and network monitoring, suspicious file analysis, and remote binary analysis through tools like Ghidra, Qilin, and angr, the plugin transforms Claude Code into a powerful AI-assisted workspace for comprehensive system and binary security analysis.
+- [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Local-first runtime control for AI coding agents (shell, secret-file reads, MCP server change, plugin/skill install). Not a complete prompt-injection preventer and not a replacement for SCA or mcp-scan. Apache-2.0. https://hol.org/guard
+- [Immunity Agent](https://github.com/PrismorSec/immunity-agent) - Security-focused AI agent runtime for scanning prompt injection, MCP risks, unsafe package installs, and dangerous agent actions before execution.
+- [Inkog](https://github.com/inkog-io/inkog) - Open-source AI agent security scanner. Audits agent code, MCP servers, and multi-agent delegation chains for vulnerabilities including prompt injection, infinite loops, and missing human oversight. Maps findings to EU AI Act, OWASP LLM Top 10, and OWASP Agentic Top 10. CLI + MCP server with SARIF output for CI/CD.
+- [Ironheights](https://github.com/Frank-Masciopinto/ironheights) - Local-first, open-source pre-install scanner and integrity monitor for OpenClaw/ClawHub agent skills: fixed rules for prompt injection, credential reads, exfiltration, remote-exec installs and persistence, staged safe-install, file baselines with drift detection, and SARIF output. Apache-2.0.
+- [Lazaretto](https://github.com/jamesdfinance-dev/lazaretto-mcp) - Deterministic pre-install verification for npm packages, AI agent skills, and MCP tools. A free lockfile check with no API key matches exactly pinned dependencies against OSV and OpenSSF malicious-package advisories; a paid scan adds behavioral analysis for credential theft, exfiltration, obfuscation, prompt injection, and install-time droppers, with file-and-line evidence and a signed attestation that verifies offline. No LLM in the scan path.
+- [MCP Doctor](https://github.com/xlyoung/mcp-doctor) - Scan, score, and install MCP servers with security checks. CLI tool with 100+ pre-scored servers in registry, 10 detection engines, and quality scoring (0-100).
+- [msoedov/agentic_security](https://github.com/msoedov/agentic_security) - An open-source vulnerability scanner specifically designed for Agent Workflows and LLMs, aiming to protect against issues like jailbreaks and fuzzing attacks.
+- [node9](https://github.com/node9-ai/node9-proxy) - Security and governance layer for AI coding agents and MCP servers (Claude Code, Codex CLI, Gemini CLI, Cursor, Copilot CLI and more) that checks every tool call before it runs: a credential jail, secret and PII detection, rules for destructive git, SQL and shell commands, per-service shields, human approval for held actions, MCP tool pinning, an egress allowlist and container sandbox, plus machine posture scoring, repo scanning for hijackable agent workflows, and one audit record across agents.
+- [OpenClaw Security Suite](https://github.com/AtlasPA/openclaw-security) - Open-source 11-tool security suite for AI agent workspaces covering integrity verification, secret scanning, prompt injection defense, supply chain analysis, network DLP, permission auditing, credential lifecycle, compliance enforcement, audit trails, cryptographic signing, and incident response. Pure Python stdlib, zero dependencies, fully local execution.
+- [OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard) - An official OWASP incubator project that detects and blocks AI agent memory poisoning attacks (OWASP ASI06). Provides drop-in middleware for LangChain, AutoGen, and CrewAI pipelines with real-time threat detection, sanitization hooks, and audit logging. `pip install agent-memory-guard`.
+- [parallax](https://github.com/agent-defense/parallax) - Runtime security engine for AI agents. Blocks prompt injection, dangerous tool calls, and secret leaks in microseconds. Single Rust binary, one YAML config, framework-agnostic.
+- [pentagi](https://github.com/vxcontrol/pentagi) - Fully autonomous AI-powered agent system designed for penetration testing.
+- [Pipelock](https://github.com/luckyPipewrench/pipelock) - Open-source AI agent firewall. Single Go binary that scans HTTP, WebSocket, and MCP traffic for DLP, prompt injection, SSRF, and tool poisoning, with signed action receipts for independent verification. Apache 2.0.
+- [Reaper](https://github.com/ghostsecurity/reaper) - Open Source Agentic Web App security testing and tampering tool by Ghost Security
+- [RedAmon](https://github.com/samugit83/redamon) - Open-source, self-hosted AI pentesting framework that maps the attack surface into a Neo4j graph, exploits from a Kali sandbox behind human approval gates, and opens pull requests that fix the findings. Works as both an MCP server and an MCP client.
+- [Redcells](https://redcells.net) - Automated adversarial testing platform for OpenAI-compatible LLMs you own or control. Run structured red-team jobs (prompt injection, jailbreak, data leakage) with an iterative attack→refine pipeline and per-layer scoring dashboard.
+- [Reverser Space](https://reverser.space/) - Operating environment for cybersecurity agents to analyze malware and reverse engineer binaries with live tools, isolated execution, persistent shared state, MCP access, and human supervision.
+- [rolandpg/zettelforge](https://github.com/rolandpg/zettelforge) - CTI agentic memory MCP server with entity extraction (CVEs, threat actors, IOCs, MITRE ATT&CK), knowledge graph with alias resolution, STIX 2.1 ontology, and intent-classified retrieval. Offline, no API keys.
+- [rust-in-peace](https://github.com/scadastrangelove/rust-in-peace) - Agentic Rust security-review harness for finding, triaging, fuzz-verifying, reporting, and patching unsafe/FFI memory bugs, panic-DoS, and deserialization-trust issues with Miri, ASan, and cargo-fuzz.
+- [SafetyCard](https://github.com/safetycard/safetycard) - Safety-check MCP servers and AI agents against the OWASP agentic Top 10, and get the safest setup to run them.
+- [ShellWard](https://github.com/jnMetaCode/shellward) - AI agent security middleware with 8-layer defense-in-depth — prompt injection detection (32 rules), DLP-style data flow tracking (read PII → outbound send = blocked), dangerous command blocking, PII/API key scanning. Works as SDK or OpenClaw plugin. Zero dependencies.
+- [Skill Safe](https://skillsafe.online/) - Free hosted pre-install security checks for AI agent skills and MCP servers. Accepts public URLs or source uploads and reports traceable findings, practical fixes, and limitations.
+- [skillock](https://github.com/ruslanlap/skillock) - Security-first package manager for AI agent skills that scans before install, blocks risky instructions, and writes a lockfile with pinned refs and SHA-256 hashes across Claude Code, Codex, Cursor, and Hermes.
+- [SkillPreflight](https://github.com/agent-contracts/skill-preflight) - Pre-install static scorecard for AI agent skills that checks risky instructions, permissions, token efficiency, footprint, reliability, and maintainability; available as an npm CLI and GitHub Action with SARIF output.
+- [SourceryKit](https://github.com/ProvablyAI/sourcerykit) - Python SDK that verifies an AI agent's outbound requests and MCP handoffs against a source of truth using zero-knowledge proofs, so a call only goes out if the agent's claims check out. Allow-lists trusted endpoints and logs every outbound call. Source-available SDK with a hosted verification backend.
+- [tool-output-mimicry](https://github.com/314-ia/tool-output-mimicry) - Reference reproducer for the Tool Output Mimicry primitive — bypasses multi-layer agentic AI defenses by impersonating an upstream agent's task summary in a user-controlled field that a downstream agent reads. Validated end-to-end against the OWASP FinBot CTF; companion paper at doi.org/10.5281/zenodo.19794072.
+- [TraceSig](https://github.com/howardhsieh/tracesig) - Sigma-style detection rules for AI agent tool-call traces, with normalizers for Claude Code sessions and agent-policy-gateway audit logs.
+- [Trent AI - Agentic AI security platform](https://trent.ai) - Continuously assess AI agents, MCP servers, AI-native applications, and code shipped with AI coding tools; trace attack chains; and verify proposed fixes landed.
+- [Vigil (VigilSOC)](https://github.com/Vigil-SOC/vigil) - Open-source agentic AI SOC (Apache 2.0) with 13 specialized security agents, MCP integrations, and 7,200+ detection rules across Sigma, Splunk, Elastic, and KQL. Multi-agent workflows defined as plain Markdown cover incident response, investigation, threat hunting, and forensic analysis.
+- [Vulert](vulert.com) - Vulert secures software by detecting vulnerabilities in open-source dependencies—without accessing your code. It supports Js, PHP, Java, Python, and more
+
+## Frameworks
+- [Aeon](https://github.com/aaronjmars/aeon) - Autonomous agent framework that runs unattended on GitHub Actions, featuring a dedicated Onchain Security skill pack (rug-scan, contract-audit, honeypot-check, approval-audit) plus a `vuln-scanner` skill that finds and responsibly discloses real vulnerabilities.
+- [Agno](https://github.com/agno-agi/agno) - Lightweight, high-performance library for building Agents.
+- [ATFAA/SHIELD](https://arxiv.org/abs/2504.19956) - Advanced threat and mitigation frameworks for securing generative/agentic AI agents, with a focus on unique agent vulnerabilities and enterprise security.
+- [CrewAI](https://github.com/crewAIInc/crewAI) - Open-source framework for orchestrating teams of AI agents, supporting collaborative and specialized agentic workflows in security contexts.
+- [LangChain](https://github.com/langchain-ai/langchain) - Modular framework for building LLM-powered agentic workflows, including security automation, retrieval-augmented generation, and tool integration.
+- [LangGraph](https://github.com/langchain-ai/langgraph) - Graph-based extension of LangChain for advanced state management and multi-agent workflows, suitable for cybersecurity automation.
+- [MAESTRO (CSA)](https://cloudsecurityalliance.org/blog/2025/02/06/agentic-ai-threat-modeling-framework-maestro) - Threat modeling framework for agentic AI, focusing on multi-agent security, layered risk analysis, and secure agentic system design.
+- [MAREF](https://github.com/maref-org/maref) - Governance-first agent runtime for securing agentic AI: TLA+-verified Gray Code governance state machine, per-agent Ed25519 identity, Merkle audit chain. Covers all 10 OWASP Top 10 for Agentic Applications (ASI01-ASI10) risks with an in-repo claim-to-code mapping.
+- [Microsoft AutoGen](https://github.com/microsoft/autogen) - Framework for orchestrating multi-agent systems, enabling collaborative AI agents for complex cybersecurity and automation tasks.
+- [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Context-aware agentic AI framework for integrating semantic reasoning and automation in security operations.
+
+## Datasets
+- [CICIDS 2017/2018](https://www.unb.ca/cic/datasets/) - Realistic network traffic datasets with labeled attacks for developing and benchmarking agentic cybersecurity solutions.
+- [CTF Datasets (DEF CON, CSAW, PicoCTF, etc.)](https://github.com/ctfs/write-ups-2014#datasets) - Real-world and simulated Capture The Flag (CTF) challenges and solutions for agentic AI and automated penetration testing research.
+- [CyberBattleSim Dataset](https://github.com/microsoft/CyberBattleSim) - Synthetic cybersecurity environments and logs for training and evaluating autonomous agents in attack/defense scenarios.
+- [DARPA Transparent Computing Datasets](https://drive.google.com/drive/folders/1okt4AYElyBohW4XiOBqmsvjwXsnUjLVf) - Large-scale, labeled system event data for red/blue team cyber operations, suitable for multi-agent and autonomous defense research.
+- [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) - Open database of 354 real-world AI agent security incidents (2025 onward), each with a primary source, attack-chain diagram and confirmed-victim flag; tagged by attack type, including 51 records of agents used offensively. JSON/CSV exports, CC BY 4.0.
+- [UNSW-NB15](https://research.unsw.edu.au/projects/unsw-nb15-dataset) - Network traffic and labeled attack data for training and evaluating AI-based intrusion detection and response agents.
+
+## Learning Resources/Podcast
+- [Agentic Security Newsletter](https://agenticsecurity.substack.com/) - A Newsletter that explores how autonomous, AI-driven agents are reshaping both offensive and defensive security. Each issue dives into the latest in tactics, tools, and ideas defining the future of security.
+- [AI Security Podcast](https://www.aisecuritypodcast.com/) - Interviews with CISOs of Anthrophic, DeepMind and more doing amazing work in LLM and cybersecurity. Topics include Agentic AI, Red Team with AI, AI for Security and Security from AI & more. The show is hosted by 2 former CISOs and currently has the largest CISO & Tech Leader audience for AI Security.
+- [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) - A curated list of AI autonomous agents. While not exclusively cybersecurity focused, it's a valuable resource for discovering emerging frameworks and platforms that could be adapted for security purposes.
+- [PromptTrace](https://prompttrace.airedlab.com) - Free hands-on AI security training platform. Practice prompt injection, RAG poisoning, and tool exploitation against real LLMs with full prompt stack visibility. Includes 10 labs, a 15-level CTF (The Gauntlet), and 9 learning modules aligned with OWASP Top 10 for LLMs.
+
+## Communities
+- [AI Cyber Alliance](https://ai-cyber-alliance.org) - Practitioner-driven community at the intersection of AI and cybersecurity, running bi-weekly in-person meetups of short technical talks, Q&A, and networking for engineers, researchers, and maintainers — no vendor pitches. Currently meets in San Francisco, the Bay Area, Washington DC, Boston, and Austin, with more cities to be announced.
+- [CyberAgents Exchange](https://exchange.tenable.com) - Open-source, vendor-agnostic directory and community, powered by Tenable, where practitioners discover, share, and compose AI agents, skills, MCP servers, and playbooks for cybersecurity.
+
+---
+
+*Contributions welcome! See [contributing guidelines](CONTRIBUTING.md) for details.*
+
+
+---
+
+*Maintained with ❤️ by @kush-coder. Official distribution powered by GitHub Autopilot Automation Platform.*
